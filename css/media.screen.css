@@ -1,0 +1,138 @@
+/* PARA QUANDO A TELA TIVER UMA LARGURA MENOR QUE 1589px */
+@media screen and (max-width: 1589px){
+  .main-section {
+    width: 80%;
+  }
+}
+
+/* PARA QUANDO A TELA TIVER UMA LARGURA MENOR QUE 1460px */
+@media screen and (max-width: 1489px){
+  .imagem {
+    min-width: 250px;
+    width: 250px;
+    height: 100%;
+  }
+  .main-section {
+    width: 90%;
+  }
+}
+
+/* PARA QUANDO A TELA TIVER UMA LARGURA MENOR QUE 1277px  */
+@media screen and (max-width: 1277px){
+  .main-menu {
+    flex-direction: column;
+  }
+  .header-search input {
+    width: 39%;
+  }
+  .header-search input:focus {
+    transition: 0.7s;
+    width: 50%;
+  }
+  .inputs-register-text p {
+    width: 90%;
+  }
+  .inputs-register-input input[type="email"]{
+      width: 50%;
+  }
+  .list-links ul {
+    flex-direction: column;
+  }
+  .list-links, .footer-copyright {
+    width: 50%;
+  }
+  .footer-copyright {
+    text-align: center;
+  }
+  .main-section {
+    padding: 0 10px;
+  }
+  .main-section {
+    flex-direction: column;
+  }
+  .posts {
+    width: 100%;
+  }
+}
+
+/* PARA QUANDO A TELA TIVER UMA LARGURA MENOR QUE 753px  */
+@media screen and (max-width: 753px){
+    .footer-register {
+      background-size: auto 100%;
+    }
+    .main-section {
+      width: 90%;
+    }
+}
+
+/* PARA QUANDO A TELA TIVER UMA LARGURA MENOR QUE 677px  */
+@media screen and (max-width: 677px){
+  .main-menu {
+    padding-top: 180px;
+  }
+
+  .main-menu-games {
+    padding-top: 230px;
+  }
+
+  .square > a > h1 {
+    font-size: 2em;
+    letter-spacing: 8px;
+    margin-top: 45%;
+  }
+  .square {
+    margin-top: 20px;
+  }
+  .header > div:first-child {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-search {
+    width: 100% !important;
+    text-align: center;
+  }
+  .header-search input[type='text']{
+    width: 48%;
+  }
+  .header-search input[type='text']:focus{
+    width: 90%;
+  }
+  .header-search i{
+    margin-left: 2%;
+  }
+  .header-title {
+    width: 100% !important;
+    text-align: left;
+  }
+  .title-page-header {
+    margin-top: 2%;
+    font-size: 1.2em;
+  }
+  .header-search {
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .posts {
+    display: flex;
+    flex-direction: column;
+  }
+  .texto-p-header, .texto-p-main, .texto-p-footer, .texto h2 {
+    padding: 0;
+  }
+  .imagem {
+    width: 100%;
+  }
+
+
+}
+
+/* PARA QUANDO A TELA TIVER UMA LARGURA MENOR QUE 397px  */
+@media screen and (max-width: 397px){
+    .footer-infos {
+      font-size: 0.8em;
+    }
+}
