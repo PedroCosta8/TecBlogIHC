@@ -43,7 +43,6 @@
   margin: 0 auto;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
-  border-bottom: 1px solid #CCC;
 }
 
 .image{ /*vai ser substituido por uma imagem */
@@ -54,6 +53,48 @@
   margin-bottom: 5%;
 }
 
-.comments{
+.comments-title{
   margin-top: 8%;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 2%;
+}
+
+.comments{
+  text-align: center;
+  margin-top: 1%;
+  display: inline-flex;
+  width: 100%;
+}
+
+.perfil-image{
+  background-color: black;
+  width: 10%;
+  margin-right: 2%;
+  border-radius: 4%;
+  border: 1px solid #CCC;
+}
+
+.comments input[type="text"] {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #CCC;
+  border-radius: 4%;
+  margin-right: 2%;
+}
+
+.comments input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: 1px solid #CCC;
+  border-bottom: 2px solid darkgray;
+  border-radius: 4%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.comments input[type="submit"]:hover {
+  transition: 0.3s;
+  background-color: gray;
+  border: 1px solid #CCC;
+  border-radius: 4%;
+  border-bottom: 2px solid darkgray;
 }
