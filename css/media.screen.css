@@ -12,9 +12,6 @@
     width: 250px;
     height: 100%;
   }
-  .main-section {
-    width: 90%;
-  }
 }
 
 /* PARA QUANDO A TELA TIVER UMA LARGURA MENOR QUE 1277px  */
@@ -72,7 +69,7 @@
   }
 
   .main-menu-games {
-    padding-top: 230px;
+    padding-top: 100px;
   }
 
   .square > a > h1 {
@@ -83,14 +80,18 @@
   .square {
     margin-top: 20px;
   }
+  .header {
+    padding-top: 5px; 
+  }
   .header > div:first-child {
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
   }
   .header-search {
-    width: 100% !important;
+    display: none !important;
+    width: 100%;
     text-align: center;
   }
   .header-search input[type='text']{
@@ -105,16 +106,14 @@
   .header-title {
     width: 100% !important;
     text-align: left;
+    margin: 0;
+    padding: 0;
   }
   .title-page-header {
-    margin-top: 2%;
-    font-size: 1.2em;
-  }
-  .header-search {
-    display: flex !important;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 5%;
+    margin-top: 1%;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 0;
   }
   .posts {
     display: flex;
