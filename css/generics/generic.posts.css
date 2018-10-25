@@ -26,6 +26,7 @@
 
 .main-aside {
   width: 100%;
+  min-width: 300px;
 }
 
 .posts {
