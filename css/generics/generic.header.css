@@ -30,7 +30,7 @@ html, body {
   width: 100%;
   padding-top: 20px;
   margin-bottom: 1%;
-  background-color: #F6AE2D;
+  background-color: rgb(225, 205, 111); /*amarelo*/
   z-index: 10;
 }
 .header > div:first-child {
@@ -49,7 +49,7 @@ html, body {
 
 .header-title > h1 > a {
   text-decoration: none;
-  color: #000;
+  color: rgb(12, 47, 89); /*azul escuro*/
 }
 
 .header-search {
@@ -74,7 +74,7 @@ html, body {
 }
 
 .header-search i {
-  color: #fff;
+  color: rgb(12, 47, 89);
   cursor: pointer;
 }
 .migalhas {

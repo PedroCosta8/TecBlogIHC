@@ -62,14 +62,14 @@
   font-size: 1em;
   border: none;
   border-radius: 5px;
-  background-color: #0073B0;
+  background-color: rgba(78, 103, 134, 0.70);
   color: #fff;
   cursor: pointer;
   transition: 0.3s;
 }
 .inputs-register-input input[type="submit"]:hover {
   transition: 0.3s;
-  background-color: #0098EB;
+    background-color: rgb(78, 103, 134);
 }
 
 .footer-infos {
@@ -77,28 +77,31 @@
   justify-content: space-between;
   min-height: 100px;
   padding: 20px 0;
-  background-color: #F6AE2D;
+  background-color: rgba(78, 103, 134, 0.70); /*azul claro*/
 }
 .list-links {
   width: 30%;
 }
+
 .list-links ul {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-
 }
+
 .list-links li {
   display: inline-block;
   margin: auto 2%;
   font-size: 1.2em;
 }
+
 .list-links li a {
-  color: #fff;
+  color: rgb(12, 47, 89);
   text-decoration: none;
 }
+
 .list-links li a:hover {
   color: #ccc;
   transition: 0.2s;
@@ -108,6 +111,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: rgb(12, 47, 89);
   cursor: default;
 }
