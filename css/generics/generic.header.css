@@ -52,6 +52,10 @@ html, body {
   color: rgb(12, 47, 89); /*azul escuro*/
 }
 
+.title-page-header{
+  color: rgb(12, 47, 89); /*azul escuro*/
+}
+
 .header-search {
   width: 49%;
 }

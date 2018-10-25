@@ -17,9 +17,9 @@
 .aside-container h1 {
   font-size: 1em;
   letter-spacing: 1px;
-  color: #fff;
+  color: rgb(12, 47, 89); /*azul escuro*/
   padding: 10px 20px;
-  background-color: #333;
+  background-color: rgba(78, 103, 134, 0.70); /*azul claro*/
   font-weight: 400;
   margin-bottom: 0.5%;
 }
@@ -54,16 +54,20 @@
   color: #504f4f;
 }
 
+.aside-container-link a:hover {
+  color: rgba(218, 55, 30, 0.37); /*vermelho*/
+}
+
 .aside-container-link a p:last-child {
   width: 100%;
   text-align: right;
   font-size: 0.7em;
 }
 
-.aside-container-link a p:first-child:hover {
+/* .aside-container-link a p:first-child:hover {
   transition: 0.3s;
-  color: #F6AE2D;
-}
+  color: rgba(218, 55, 30, 0.37); /*vermelho*/
+
 .aside-publicacao {
   display: flex;
   margin: 1% 0;
@@ -87,7 +91,7 @@
 .aside-footer-link a::after{
   content: "";
   display: inline-block;
-  border: solid #F6AE2D;
+  color: rgba(218, 55, 30, 0.37); /*vermelho*/
   border-width: 2px 2px 0px 0px;
   padding: 2px;
   margin: 0;

@@ -54,6 +54,7 @@
 }
 
 .comments-title{
+  color: rgb(12, 47, 89); /*azul escuro*/
   margin-top: 8%;
   border-bottom: 1px solid #CCC;
   margin-bottom: 2%;
@@ -83,18 +84,20 @@
 }
 
 .comments input[type="submit"] {
+  color: rgb(12, 47, 89); /*azul escuro*/
+  background-color: rgba(78, 103, 134, 0.70);
   padding: 10px 20px;
   font-size: 1em;
   border: 1px solid #CCC;
-  border-bottom: 2px solid darkgray;
+  color: rgb(12, 47, 89); /*azul escuro*/
   border-radius: 4%;
   cursor: pointer;
   transition: 0.3s;
 }
 .comments input[type="submit"]:hover {
   transition: 0.3s;
-  background-color: gray;
+  background-color: rgb(78, 103, 134);
   border: 1px solid #CCC;
   border-radius: 4%;
-  border-bottom: 2px solid darkgray;
+  color: rgb(12, 47, 89); /*azul escuro*/
 }

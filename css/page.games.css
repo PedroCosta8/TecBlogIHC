@@ -19,25 +19,29 @@
 
 /* COR DO CABEÇALHO DA PÁGINA */
 .header {
-  background-color: #469C5D;
+  background-color: rgb(225, 205, 111);
+}
+
+.title-page-header{
+  color: rgb(12, 47, 89); /*azul escuro*/
 }
 
 /* COR DO LINK NO ASIDE DA PÁGINA AO PASSAR O MOUSE */
 .aside-container-link a p:first-child:hover {
-  color: #469C5D;
+  color: rgba(218, 55, 30, 0.37); /*vermelho*/
 }
 
 /* COR DO TITULO DOS POSTS AO PASSAR O MOUSE */
 .texto h2:hover {
-  color: #469C5D;
+  color: rgb(12, 47, 89); /*azul escuro*/
 }
 
 /* COR DO FOOTER DO ASIDE */
 .aside-footer-link a {
-  color: #469C5D;
+  color: rgba(218, 55, 30, 0.37); /*vermelho*/
 }
 
 /* COR DA SETA QUE ESTA LOGO DEPOIS DO LINK NO RODAPÉ DO ASIDE */
 .aside-footer-link a::after{
-  border-color: #469C5D;
+  color: rgba(218, 55, 30, 0.37); /*vermelho*/
 }
