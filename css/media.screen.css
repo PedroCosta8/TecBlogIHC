@@ -81,18 +81,17 @@
     margin-top: 20px;
   }
   .header {
-    padding-top: 5px; 
+    padding-top: 5px;
   }
   .header > div:first-child {
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
   }
   .header-search {
-    display: none !important;
     width: 100%;
-    text-align: center;
+    text-align: right;
   }
   .header-search input[type='text']{
     width: 48%;
@@ -124,6 +123,15 @@
   }
   .imagem {
     width: 100%;
+  }
+  .post-content {
+    width: 90%;
+  }
+  .content {
+    width: 100%;
+  }
+  .post-title {
+    font-size: 2em;
   }
 
 
