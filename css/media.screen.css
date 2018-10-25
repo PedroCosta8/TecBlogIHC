@@ -12,6 +12,9 @@
     width: 250px;
     height: 100%;
   }
+  .list-links ul li {
+    font-size: 1.1em;
+  }
 }
 
 /* PARA QUANDO A TELA TIVER UMA LARGURA MENOR QUE 1277px  */
@@ -64,6 +67,9 @@
 
 /* PARA QUANDO A TELA TIVER UMA LARGURA MENOR QUE 677px  */
 @media screen and (max-width: 677px){
+  .main-section {
+    margin-top: 7%;
+  }
   .main-menu {
     padding-top: 180px;
   }
@@ -81,23 +87,32 @@
     margin-top: 20px;
   }
   .header {
+    height: 115px;
     padding-top: 5px;
+  }
+  .migalhas {
+    margin-top: 40px;
   }
   .header > div:first-child {
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
   }
   .header-search {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
     width: 100%;
-    text-align: right;
   }
+
+  .header-search i {
+    margin-right: 20px;
+  }
+
   .header-search input[type='text']{
-    width: 48%;
-  }
-  .header-search input[type='text']:focus{
-    width: 90%;
+    opacity: 0;
+    width: 0%;
   }
   .header-search i{
     margin-left: 2%;
