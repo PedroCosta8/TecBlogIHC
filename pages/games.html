@@ -25,7 +25,7 @@
         </div>
         <div class="header-search">
           <input type="text" name="search" placeholder="O que deseja procurar?" value="">
-          <i class="fa fa-search" aria-hidden="true"></i>
+          <i class="fa fa-search" aria-hidden="true" id="icon-search" ></i>
         </div>
       </div>
       <div class="migalhas">
@@ -241,8 +241,10 @@
             <p>Preencha o formulário com o seu email para receber as últimas notícias do mundo Tecnológico!</p>
           </div>
           <div class="inputs-register-input">
-            <input type="email" name="email" value="" placeholder="Entre com o seu endereço de email" required>
-            <input type="submit" name="" value="Quero Receber">
+           <form method="post" action="">
+              <input type="email" name="email" value="" placeholder="Entre com o seu endereço de email" required autocomplete="off">
+              <input type="submit" name="" value="Quero Receber">
+            </form>
           </div>
         </div>
       </div>
@@ -261,4 +263,5 @@
       </div>
     </footer>
   </body>
+  <script type="text/javascript" src="../js/mobile.js"></script>
 </html>
