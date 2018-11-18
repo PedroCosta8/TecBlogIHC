@@ -1,0 +1,100 @@
+/*
+
+  ESSE ARQUIVO CONTEM O ESTILO PADRÃO DO ASIDE DO SITE, POR ISSO É CARREGADO
+  EM TODAS AS PÁGINAS.
+
+  PS: CASO SEJA NECESSÁRIO ALTERAR ALGO ESPECIFICO NO ASIDE DE UMA PÁGINA,
+  DEVE-SE USAR O ARQUIVO page.nomedapagina.css.
+
+*/
+
+.aside-container {
+  margin: 19px 0 50px 0;
+  box-shadow: 0 0 5px 3px #eceaea;
+  border-radius: 5px;
+  overflow-x: hidden;
+}
+.aside-container h1 {
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: rgb(12, 47, 89); /*azul escuro*/
+  padding: 10px 20px;
+  background-color: rgba(78, 103, 134, 0.70); /*azul claro*/
+  font-weight: 400;
+  margin-bottom: 0.5%;
+}
+.aside-img {
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.aside-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aside-img img:hover {
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+.aside-container-link {
+  width: 100%;
+  padding: 20px 20px 0 20px;
+  font-size: 0.9em;
+}
+.aside-container-link a {
+  display: block;
+  height: 100%;
+  border-bottom: 1px solid #e8e7e7;
+  text-decoration: none;
+  color: #504f4f;
+}
+
+.aside-container-link a:hover {
+  color: rgba(218, 55, 30, 0.37); /*vermelho*/
+}
+
+.aside-container-link a p:last-child {
+  width: 100%;
+  text-align: right;
+  font-size: 0.7em;
+}
+
+/* .aside-container-link a p:first-child:hover {
+  transition: 0.3s;
+  color: rgba(218, 55, 30, 0.37); /*vermelho*/
+
+.aside-publicacao {
+  display: flex;
+  margin: 1% 0;
+  padding: 0 3px;
+}
+
+.aside-footer-link {
+  display: block;
+  width: 100%;
+  padding: 5px 20px 5px 20px;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-decoration: none;
+}
+.aside-footer-link a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #F6AE2D;
+}
+.aside-footer-link a::after{
+  content: "";
+  display: inline-block;
+  color: rgba(218, 55, 30, 0.37); /*vermelho*/
+  border-width: 2px 2px 0px 0px;
+  padding: 2px;
+  margin: 0;
+  margin-left: 0.5%;
+  transform: rotate(40deg);
+}
