@@ -1,0 +1,91 @@
+/*
+
+  ESSE ARQUIVO CONTEM O ESTILO PADRÃO DOS POSTS DO SITE, POR ISSO É CARREGADO
+  EM TODAS AS PÁGINAS.
+
+  PS: CASO SEJA NECESSÁRIO ALTERAR ALGO ESPECIFICO NOS POSTS DE UMA PÁGINA,
+  DEVE-SE USAR O ARQUIVO page.nomedapagina.css.
+
+*/
+.main-menu-games {
+  width: 100%;
+  padding-top: 120px;
+  margin-bottom: 5px;
+}
+.main-section {
+  width: 70%;
+  padding: 0 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.main-div {
+  overflow: hidden;
+}
+
+.main-aside {
+  width: 100%;
+  min-width: 300px;
+}
+
+.posts {
+  display: block;
+  width: 85%;
+  display: inline-flex;
+  border-bottom: 1px solid #CCC;
+  padding: 20px 0;
+}
+
+.imagem {
+  background-color: black;
+  min-width: 350px;
+  width: 350px;
+  height: 190px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.imagem img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.imagem img:hover {
+  transition: 0.3s;
+  opacity: 0.8;
+}
+.texto a {
+  text-decoration: none;
+}
+
+.texto-p-header, .texto-p-main, .texto-p-footer, h2 {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.texto h2:hover {
+  transition: 0.5s;
+  color: #F6AE2D;
+}
+
+.texto-p-header {
+ font-weight: 600;
+ font-size: 0.9em;
+}
+.texto-p-header, h2 {
+  color: #504f4f;
+  line-height: 27px;
+  margin-bottom: 2%;
+}
+
+.texto-p-main {
+  line-height: 20px;
+  color: #7b7a7a;
+}
+.texto-p-footer {
+  margin-top: 2%;
+  color: #504f4f;
+  line-height: 20px;
+  font-size: 0.7em;
+}

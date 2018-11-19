@@ -1,0 +1,103 @@
+
+.post-content {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.content-top{
+  border-bottom: 1px solid #CCC;
+  width: 100%;
+}
+
+.post-title {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+
+.content-top p {
+  font-size: 1.2em;
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 2%;
+}
+
+ .openning-image { /*vai ser substituido por uma imagem */
+  margin: 0 auto;
+  /* padding-top: 500px;
+  background-color: gray; */
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 90%;
+}
+
+.content p{
+  font-size: 1.2em;
+  margin-bottom: 5%;
+}
+
+.content{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.image{ /*vai ser substituido por uma imagem */
+  /* background-color: gray;
+  padding: 200px; */
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.comments-title{
+  color: rgb(12, 47, 89); /*azul escuro*/
+  margin-top: 8%;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 2%;
+}
+
+.comments{
+  text-align: center;
+  margin-top: 1%;
+  display: inline-flex;
+  width: 100%;
+}
+
+.perfil-image{
+  background-color: black;
+  width: 10%;
+  margin-right: 2%;
+  border-radius: 4%;
+  border: 1px solid #CCC;
+}
+
+.comments input[type="text"] {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #CCC;
+  border-radius: 4%;
+  margin-right: 2%;
+}
+
+.comments input[type="submit"] {
+  color: rgb(12, 47, 89); /*azul escuro*/
+  background-color: rgba(78, 103, 134, 0.70);
+  padding: 10px 20px;
+  font-size: 1em;
+  border: 1px solid #CCC;
+  color: rgb(12, 47, 89); /*azul escuro*/
+  border-radius: 4%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.comments input[type="submit"]:hover {
+  transition: 0.3s;
+  background-color: rgb(78, 103, 134);
+  border: 1px solid #CCC;
+  border-radius: 4%;
+  color: rgb(12, 47, 89); /*azul escuro*/
+}

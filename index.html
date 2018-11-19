@@ -4,13 +4,23 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/generics/generic.header.css"/>
-    <link rel="stylesheet" href="css/page.home.css"/>
-    <link rel="stylesheet" href="css/generics/generic.footer.css"/>
-    <link rel="stylesheet" href="css/media.screen.css"/>
+    
+    <!-- CSS LOCAL -->
+    <link rel="stylesheet" href="./resources/assets/css/generics/generic.header.css"/>
+    <link rel="stylesheet" href="./resources/assets/css/generics/generic.footer.css"/>
+    <link rel="stylesheet" href="./resources/assets/css/page.home.css"/>
+    <link rel="stylesheet" href="./resources/assets/css/media.screen.css"/>
+    
     <title>Bem-Vindo(a) - TecBlog</title>
   </head>
   <body>
+    <!-- BOTAO PARA MOVER PARA CIMA -->
+    <div id="moveUpIcon" class="moveUpIcon">
+      <div class="moveUpIconCircle" title="Ir para o topo">
+        <i class="fas fa-arrow-up fa-2x"></i>
+      </div>
+    </div>
+
     <header class="header">
       <div>
         <div class="header-title">
@@ -18,36 +28,37 @@
         </div>
         <div class="header-search">
           <input type="text" name="search" placeholder="O que deseja procurar?" value="">
-          <i class="fa fa-search" aria-hidden="true"></i>
+          <i class="fa fa-search" aria-hidden="true" id="icon-search"></i>
         </div>
       </div>
     </header>
+
     <main class="main-menu">
       <div class="lineOne">
         <section class="square section-jogos">
-          <a href="pages/aplicativos.html" title="Aplicaticos">
+          <a href="./resources/views/pages/aplicativos.html" title="Aplicaticos">
             <h1>APLICATIVOS</h1>
-            <img src="imagens/apps_background.png" alt="">
+            <img src="./resources/assets/imagens/home/apps_background.png" alt="">
           </a>
         </section>
         <section class="square section-smartphone">
-          <a href="pages/games.html" title="Games">
+          <a href="./resources/views/pages/games.html" title="Games">
             <h1>GAMES</h1>
-            <img src="imagens/jogos_background.jpeg" alt="">
+            <img src="./resources/assets/imagens/home/jogos_background.jpeg" alt="">
           </a>
         </section>
       </div>
       <div class="lineTwo">
         <section class="square section-apps">
-          <a href="pages/smartphone.html" title="Smartphones">
+          <a href="./resources/views/pages/smartphone.html" title="Smartphones">
             <h1>SMARTPHONES</h1>
-            <img src="imagens/smartphone_background.jpeg" alt="">
+            <img src="./resources/assets/imagens/home/smartphone_background.jpeg" alt="">
           </a>
         </section>
         <section class="square section-hardware">
-          <a href="pages/hardware.html" title="Hardware">
+          <a href="./resources/views/pages/hardware.html" title="Hardware">
             <h1>HARDWARE</h1>
-            <img src="imagens/hardware_background.jpeg" alt="">
+            <img src="./resources/assets/imagens/home/hardware_background.jpeg" alt="">
           </a>
         </section>
       </div>
@@ -84,4 +95,8 @@
     </footer>
 
   </body>
+  
+  <script type="text/javascript" src="./resources/assets/js/mobile.js"></script>
+  <!-- CONTEM FUNCOES GENERICAS PARA TODAS AS PAGINAS -->
+  <script type="text/javascript" src="./resources/assets/js/generic.pages.js"></script>
 </html>

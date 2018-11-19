@@ -1,6 +1,16 @@
 # TecBlogIHC
 Projeto para desenvolver as habilidades da disciplina de IHC no curso TADS 2018.1, IFRN-CNAT.
 
+##### **v0.5**
+
+- Estrutura do projeto reformada;
+- Adicionar o botão para subir o Scroll;
+- Adicionar o sistema de carregamento de vídeo dinâmico (no aside das páginas);
+- Corrigido instabilidade na página inicial:
+    - O _filter: blur(4px)_ nas imagens da página inicial estava causando travamentos no Google Chrome.
+- Corrigido links das _migalhas_;
+- Adicionado _migalhas_ em algumas páginas.
+
 ##### **v0.4**
 
 - Inserido "migalhas de pão" no header;
