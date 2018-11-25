@@ -23,7 +23,7 @@
     flex-direction: column;
   }
   .header-search input {
-    width: 39%;
+    width: 45%;
   }
   .header-search input:focus {
     transition: 0.7s;
@@ -53,6 +53,9 @@
   .posts {
     width: 100%;
   }
+  .navigator-menu-list {
+    width: 30%;
+  }
 }
 
 /* PARA QUANDO A TELA TIVER UMA LARGURA MENOR QUE 753px  */
@@ -62,6 +65,15 @@
     }
     .main-section {
       width: 90%;
+    }
+    .header-search input {
+      width: 75%;
+    }
+    .header-search input:focus {
+      width: 75%;
+    }
+    .navigator-menu-list {
+      width: 40%;
     }
 }
 
@@ -167,6 +179,12 @@
     width: 20px;
     height: 20px;
     font-size: 0.7em !important;
+  }
+  .migalhas {
+    padding-left: 42px;
+  }
+  .navigator-menu-list {
+    width: 70%;
   }
 
 }

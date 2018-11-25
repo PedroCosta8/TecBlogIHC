@@ -11,8 +11,9 @@
   align-items: center;
   width: 90%;
   margin: 0 auto;
-  padding-top: 120px;
+  padding-top: 140px;
 }
+
 .lineOne, .lineTwo {
   width: 100%;
   display: flex;
