@@ -90,7 +90,7 @@ html, body {
   margin-top: 1%;
   z-index: 5;
   transition: 0.6s;
-  transform: translateX(-500px);
+  transform: translateX(-1000px);
 }
 
 .navigator-menu-list > div h1 {

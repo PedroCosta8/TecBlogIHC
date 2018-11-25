@@ -98,7 +98,7 @@ document.body.addEventListener('click', function(event){
   const navigatorMenuList = document.getElementById('navigator-menu-list');
 
   navigatorMenuList.style.transition = '0.5s';
-  navigatorMenuList.style.transform = 'translateX(-500px)';
+  navigatorMenuList.style.transform = 'translateX(-1000px)';
 
 });
 
