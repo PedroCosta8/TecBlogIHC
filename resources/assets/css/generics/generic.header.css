@@ -214,3 +214,39 @@ html, body {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
+
+
+/* BARRA LATERAL */
+.asideBar {
+  display: block;
+  position: fixed;
+  bottom: 50%;
+  right: 20px;
+  height: 200px;
+  width: 30px;
+  z-index: 102;
+}
+
+.asideBar > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  margin-top: 5px;
+  cursor: pointer;
+  padding: 0;
+  background-color: #4e6786;
+  transition: 0.3s;
+}
+
+.asideBar > div > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.asideBar > div:hover {
+  transition: 0.5s;
+  opacity: 0.5;
+}

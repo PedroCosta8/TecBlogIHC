@@ -1,6 +1,10 @@
 # TecBlogIHC - Versão com a paleta Triádica
 Projeto para desenvolver as habilidades da disciplina de IHC no curso TADS 2018.1, IFRN-CNAT.
 
+#### **v0.8**
+
+- Adicionado barra lateral para contatos e redes sociais;
+
 ##### **v0.7**
 
 - Removido os vídeos locais e alterado os links;
