@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    
+
     <!-- CSS LOCAL -->
     <link rel="stylesheet" href="../../../resources/assets/css/generics/generic.header.css"/>
     <link rel="stylesheet" href="../../../resources/assets/css/generics/generic.posts.css"/>
@@ -17,11 +17,34 @@
     <title>Hardware - TecBlog</title>
   </head>
   <body>
+    <!-- BARRA LATERAL -->
+    <div class="asideBar">
+      <div>
+        <a href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <i class="far fa-envelope-open"></i>
+        </a>
+      </div>
+    </div>
     <!-- BOTAO PARA SUBIR A PAGINA PARA O TOPO -->
     <div id="moveUpIcon" class="moveUpIcon" title="Ir para o Topo">
       <i class="fas fa-arrow-up fa-2x"></i>
     </div>
-  
+
     <!-- MODAL PARA PRODUZIR OS VIDEOS -->
     <div id="modalPlayer" class="modalPlayer">
       <div class="modalPlayerClose">
@@ -36,11 +59,31 @@
 
     <header class="header">
       <div>
+        <nav class="navigator-menu">
+          <div id="hamburger-button" class="hamburger-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div id="navigator-menu-list" class="navigator-menu-list">
+
+            <div>
+                <h1>Categorias</h1>
+                <ul>
+                  <li><a href="./aplicativos.html">Aplicativos</a></li>
+                  <li><a href="./smartphone.html">Smartphone</a></li>
+                  <li><a href="./games.html">Games</a></li>
+                  <li><a href="./hardware.html">Hardware</a></li>
+                </ul>
+            </div>
+
+          </div>
+        </nav>
         <div class="header-title">
           <h1><a href="../../../index.html">TecBlog</a></h1>
         </div>
         <div class="title-page-header">
-          <h1>HARDWARE</h1>
+          <h1><a href="../pages/hardware.html">HARDWARE</a></h1>
         </div>
         <div class="header-search">
           <input type="text" name="search" placeholder="O que deseja procurar?" value="">
@@ -77,7 +120,7 @@
                 Todos os headsets são flexíveis e ajustáveis.
               </p>
               <p class="texto-p-footer">
-                ONTEM - FONES
+                HÁ 3 HORAS - FONES
               </p>
             </div>
           </div>
@@ -150,12 +193,12 @@
               <div class="aside-publicacao">
                 <div class="aside-img">
                   <a href="#">
-                    <img src="../../../resources/assets/imagens/posts/caixadesom.jpg" alt="Caixa de Som">
+                    <img src="../../../resources/assets/imagens/posts/apps/spotifynomaximo.jpg" alt="Como ouvir música no Spotify com qualidade máxima">
                   </a>
                 </div>
                 <div class="aside-container-link">
                   <a href="#">
-                    <p>Motorola One e Motorola One Power; conheça os novos celulares</p>
+                    <p>Como ouvir música no Spotify com qualidade máxima</p>
                     <p>HÁ 5 MINUTOS</p>
                   </a>
                 </div>
@@ -164,12 +207,12 @@
               <div class="aside-publicacao">
                 <div class="aside-img">
                   <a href="#">
-                    <img src="../../../resources/assets/imagens/posts/caixadesom.jpg" alt="Caixa de Som">
+                    <img src="../../../resources/assets/imagens/posts/apps/nubank-foto.jpg" alt="Nubank cartão">
                   </a>
                 </div>
                 <div class="aside-container-link">
                   <a href="#">
-                    <p>Motorola One e Motorola One Power; conheça os novos celulares</p>
+                    <p>Nubank tem função para cobrar dinheiro com boleto forma 'simpática'</p>
                     <p>HÁ 30 MINUTOS</p>
                   </a>
                 </div>
@@ -178,12 +221,12 @@
               <div class="aside-publicacao">
                 <div class="aside-img">
                   <a href="#">
-                    <img src="../../../resources/assets/imagens/posts/caixadesom.jpg" alt="Caixa de Som">
+                    <img src="../../../resources/assets/imagens/posts/apps/app-maia.jpg" alt="App Maia">
                   </a>
                 </div>
                 <div class="aside-container-link">
                   <a href="#">
-                    <p>Motorola One e Motorola One Power; conheça os novos celulares</p>
+                    <p>Como saber se estou no período fértil com o app Maia</p>
                     <p>HÁ 1 HORA</p>
                   </a>
                 </div>
@@ -199,13 +242,14 @@
 
               <div class="aside-publicacao">
                 <div class="aside-img">
-                  <a href="#">
-                    <img src="../../../resources/assets/imagens/posts/caixadesom.jpg" alt="Caixa de Som">
+                  <a href="#" class="initPlayVideo" data-video="https://drive.google.com/uc?export=download&id=1w3mnF7gP84PyScQTMfONjarr7XHmgi2P" data-video-ext="mp4" data-video-img="../../../resources/assets/imagens/posts/apps/10_apps_uteis.png">
+                    <i class="fas fa-play fa-2x"></i>
+                    <img src="../../../resources/assets/imagens/posts/apps/10_apps_uteis.png" alt="Dicas dos 10 aplicativos úteis para o seu smartphone">
                   </a>
                 </div>
                 <div class="aside-container-link">
-                  <a href="#">
-                    <p>Motorola One e Motorola One Power; conheça os novos celulares</p>
+                  <a href="#" class="initPlayVideo" data-video="https://drive.google.com/uc?export=download&id=1w3mnF7gP84PyScQTMfONjarr7XHmgi2P" data-video-ext="mp4" data-video-img="../../../resources/assets/imagens/posts/apps/10_apps_uteis.png">
+                    <p>10 aplicativos úteis para o seu smartphone</p>
                     <p>HÁ 1 HORA</p>
                   </a>
                 </div>
@@ -213,13 +257,14 @@
 
               <div class="aside-publicacao">
                 <div class="aside-img">
-                  <a href="#">
-                    <img src="../../../resources/assets/imagens/posts/caixadesom.jpg" alt="Caixa de Som">
+                  <a href="#" class="initPlayVideo" data-video="https://drive.google.com/uc?export=download&id=15m69j2xWq1XjRLzY-H9aEhA1c9qZlqk9" data-video-ext="mp4" data-video-img="../../../resources/assets/imagens/posts/apps/melhores.apps.baixaki.png">
+                    <i class="fas fa-play fa-2x"></i>
+                    <img src="../../../resources/assets/imagens/posts/apps/melhores.apps.baixaki.png" alt="Melhores Apps da Semana para Android e iOS">
                   </a>
                 </div>
                 <div class="aside-container-link">
-                  <a href="#">
-                    <p>Motorola One e Motorola One Power; conheça os novos celulares</p>
+                  <a href="#" class="initPlayVideo" data-video="https://drive.google.com/uc?export=download&id=15m69j2xWq1XjRLzY-H9aEhA1c9qZlqk9" data-video-ext="mp4" data-video-img="../../../resources/assets/imagens/posts/apps/melhores.apps.baixaki.png">
+                    <p>Melhores Apps da Semana para Android e iOS</p>
                     <p>HÁ 1 HORA</p>
                   </a>
                 </div>
@@ -227,14 +272,15 @@
 
               <div class="aside-publicacao">
                 <div class="aside-img">
-                  <a href="#">
-                    <img src="../../../resources/assets/imagens/posts/caixadesom.jpg" alt="Caixa de Som">
+                  <a href="#" class="initPlayVideo" data-video="https://drive.google.com/uc?export=download&id=1MwgkU85WAunyk90M3Oa-VJG5rddcW2Il" data-video-ext="mp4" data-video-img="../../../resources/assets/imagens/posts/apps/top5.apps.linux.png">
+                    <i class="fas fa-play fa-2x"></i>
+                    <img src="../../../resources/assets/imagens/posts/apps/top5.apps.linux.png" alt="Top 5 apps para o linux">
                   </a>
                 </div>
                 <div class="aside-container-link">
-                  <a href="#">
-                    <p>Motorola One e Motorola One Power; conheça os novos celulares</p>
-                    <p>HÁ 1 HORA</p>
+                  <a href="#" class="initPlayVideo" data-video="https://drive.google.com/uc?export=download&id=1MwgkU85WAunyk90M3Oa-VJG5rddcW2Il" data-video-ext="mp4" data-video-img="../../../resources/assets/imagens/posts/apps/top5.apps.linux.png">
+                    <p>TOP 5 Apps para Linux que não podem faltar no seu PC</p>
+                    <p>HÁ 47 HORA</p>
                   </a>
                 </div>
               </div>

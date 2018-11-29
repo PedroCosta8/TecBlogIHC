@@ -45,9 +45,9 @@ function navigatorMenuShow()
 
   // PRIMEIRO SPAN
   const spanOne = this.firstChild.nextSibling;
-  // SEGUNDO SPAN 
+  // SEGUNDO SPAN
   const spanTwo = spanOne.nextElementSibling;
-  // TERCEIRO SPAN 
+  // TERCEIRO SPAN
   const spanThree = spanTwo.nextElementSibling;
 
   // FAZENDO O X
@@ -76,11 +76,11 @@ document.body.addEventListener('click', function(event){
   const hamburgerButton = document.getElementById('hamburger-button');
   // PRIMEIRO SPAN
   const spanOne = hamburgerButton.firstChild.nextSibling;
-  // SEGUNDO SPAN 
+  // SEGUNDO SPAN
   const spanTwo = spanOne.nextElementSibling;
-  // TERCEIRO SPAN 
+  // TERCEIRO SPAN
   const spanThree = spanTwo.nextElementSibling;
-  
+
   // REMOVENDO O X
   spanOne.style.margin = '2px 0';
   spanOne.style.position = 'relative';
@@ -101,4 +101,3 @@ document.body.addEventListener('click', function(event){
   navigatorMenuList.style.transform = 'translateX(-1000px)';
 
 });
-

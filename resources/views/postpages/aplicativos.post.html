@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    
+
     <!-- CSS LOCAL -->
     <link rel="stylesheet" href="../../../resources/assets/css/generics/generic.header.css"/>
     <link rel="stylesheet" href="../../../resources/assets/css/generics/generic.footer.css"/>
@@ -12,8 +12,44 @@
     <link rel="stylesheet" href="../../../resources/assets/css/page.post.css"/>
     <link rel="stylesheet" href="../../../resources/assets/css/media.screen.css"/>
     <title>Aplicativos - TecBlog</title>
+    <style>
+      .asideBar{
+        display: block;
+        position: fixed;
+        bottom: 48.7%;
+        right: 20px;
+        height: 200px;
+        width: 30px;
+        z-index: 102;
+      }
+    </style>
+
   </head>
   <body>
+
+    <!-- BARRA LATERAL -->
+    <div class="asideBar">
+      <div>
+        <a href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <i class="far fa-envelope-open"></i>
+        </a>
+      </div>
+    </div>
 
     <!-- BOTAO PARA SUBIR A PAGINA PARA O TOPO -->
     <div id="moveUpIcon" class="moveUpIcon" title="Ir para o Topo">
@@ -22,11 +58,31 @@
 
     <header class="header">
       <div>
+        <nav class="navigator-menu">
+          <div id="hamburger-button" class="hamburger-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div id="navigator-menu-list" class="navigator-menu-list">
+
+            <div>
+                <h1>Categorias</h1>
+                <ul>
+                  <li><a href="../pages/aplicativos.html">Aplicativos</a></li>
+                  <li><a href="../pages/smartphone.html">Smartphone</a></li>
+                  <li><a href="../pages/games.html">Games</a></li>
+                  <li><a href="../pages/hardware.html">Hardware</a></li>
+                </ul>
+            </div>
+
+          </div>
+        </nav>
         <div class="header-title">
           <h1><a href="../../../index.html">TecBlog</a></h1>
         </div>
         <div class="title-page-header">
-          <h1>APLICATIVOS</h1>
+          <h1><a href="../pages/aplicativos.html">APLICATIVOS</a></h1>
         </div>
         <div class="header-search">
           <input type="text" name="search" placeholder="O que deseja procurar?" value="">
@@ -81,13 +137,43 @@
         <h2 class="comments-title">Comentários</h2>
         <div class="comments">
           <div class="perfil-image">
-
+            <img src="../../../resources/assets/imagens/posts/avatar.png" alt="imagem padrão"  width="100%" height="100%"/>
           </div>
           <input type="text" placeholder="Escreva um comentário..." />
           <input type="submit" />
         </div>
       </article>
     </main>
+
+    <footer class="footer">
+      <div class="footer-register">
+        <div class="inputs-register">
+          <div class="inputs-register-text">
+            <h1>Fique por dentro das últimas postagens</h1>
+            <p>Preencha o formulário com o seu email para receber as últimas notícias do mundo Tecnológico!</p>
+          </div>
+          <div class="inputs-register-input">
+            <form method="post" action="">
+              <input type="email" name="email" value="" placeholder="Entre com o seu endereço de email" required autocomplete="off">
+              <input type="submit" name="" value="Quero Receber">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-infos">
+        <div class="list-links">
+          <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos</a></li>
+          </ul>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy Todos os direitos Reservados - TecBlog</p>
+        </div>
+      </div>
+    </footer>
 
   </body>
   <script type="text/javascript" src="../../../resources/assets/js/generic.pages.js"></script>

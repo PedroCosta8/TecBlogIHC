@@ -102,6 +102,11 @@
     height: 115px;
     padding-top: 5px;
   }
+
+  .asideBar{
+    display: none;
+  }
+
   .migalhas {
     margin-top: 40px;
   }
@@ -185,6 +190,9 @@
   }
   .navigator-menu-list {
     width: 70%;
+  }
+  .comments{
+    height: 40px;
   }
 
 }
